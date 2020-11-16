@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  font-family:montserrat, "open Sans", helvetica, Arial, sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+}
+
+body{
+  font-family: "arial", Serif;
+  background-color: hsl(0, 0%, 96%);
+  overflow-x: hidden;
+  height:100%;
+  color: black;
+}
+
+.navBar{
+  padding: 0;
+  width: 100%;
+  background-color: #282e34;
+  position: fixed;
+  top: 0;
+  margin-bottom: 50px;
+}
+
+.page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
