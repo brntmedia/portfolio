@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 import PC from "../components/assets/images/PC.jpg";
 import github from "../components/assets/images/profile.jpg";
-import HelpingHands from "../components/assets/images/collage.jpg";
+import CV from "../components/assets/images/CV.jpg";
 import Card from "../components/Card"
 
 class Carousel extends React.Component {
@@ -15,8 +15,8 @@ class Carousel extends React.Component {
             items: [
                 {
                     id:0,
-                    title: 'brntmedia PC',
-                    subTitle: 'Your next custom gaming',
+                    title: 'brntmedia',
+                    subTitle: 'Your next gaming PC',
                     imgSrc: PC,
                     link: 'https://www.facebook.com/marketplace/profile/100002003184924/?ref=share_attachment',
                     selected: false
@@ -31,9 +31,9 @@ class Carousel extends React.Component {
                 }, 
                 {
                     id:2,
-                    title: 'Helping Hands',
-                    subTitle: 'Local handyman buisness',
-                    imgSrc: HelpingHands,
+                    title: 'CV',
+                    subTitle: 'Academic and Professional History',
+                    imgSrc: CV,
                     link: 'https://github.com/brntmedia/HH',
                     selected: false
                 }, 
