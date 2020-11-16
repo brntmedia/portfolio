@@ -6,6 +6,7 @@ import PC from "../components/assets/images/PC.jpg";
 import github from "../components/assets/images/profile.jpg";
 import CV from "../components/assets/images/CV.jpg";
 import Card from "../components/Card"
+import C_V from "../components/assets/TB CV.pdf"
 
 class Carousel extends React.Component {
 
@@ -34,7 +35,7 @@ class Carousel extends React.Component {
                     title: 'CV',
                     subTitle: 'Academic and Professional History',
                     imgSrc: CV,
-                    link: 'https://github.com/brntmedia/HH',
+                    link: "/About",
                     selected: false
                 }, 
             ]
